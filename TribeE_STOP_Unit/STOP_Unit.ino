@@ -13,7 +13,6 @@ void setup() {
   delay(1500); 
 
   setup_espnow();
-  // setup_arduino_cloud();
   Serial.flush();
   setup_ble();
   setup_disp();
